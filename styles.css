@@ -1,0 +1,33 @@
+/* Custom styles for Places */
+:root {
+    --places-blue: #3B82F6;
+    --places-dark-blue: #2563EB;
+    --places-black: #222222;
+    --places-gray: #717171;
+    --places-light-gray: #EBEBEB;
+}
+
+body {
+    font-family: 'Circular', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--places-black);
+}
+
+.places-primary { color: var(--places-blue); }
+.bg-places-primary { background-color: var(--places-blue); }
+.hover\:bg-places-primary:hover { background-color: var(--places-dark-blue); }
+
+.btn-primary {
+    background-color: var(--places-blue);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--places-dark-blue);
+    transform: translateY(-1px);
+}
+
+/* Rest of your existing styles... */
