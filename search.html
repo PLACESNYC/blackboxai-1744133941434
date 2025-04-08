@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results | Places</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    <header class="flex justify-between items-center p-4 bg-white shadow">
+        <div class="text-2xl font-bold">Airbnb Clone</div>
+        <div class="flex space-x-4">
+            <button class="bg-red-500 text-white px-4 py-2 rounded">Login</button>
+            <button class="bg-gray-200 px-4 py-2 rounded">Sign Up</button>
+        </div>
+    </header>
+
+    <!-- Search Filters -->
+    <section class="p-4 bg-gray-100">
+        <div class="flex space-x-4">
+            <select class="p-2 rounded">
+                <option>Price range</option>
+                <option>$0 - $50</option>
+                <option>$50 - $100</option>
+            </select>
+            <select class="p-2 rounded">
+                <option>Type of place</option>
+                <option>Entire place</option>
+                <option>Private room</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- Search Results -->
+    <section class="p-4">
+        <h2 class="text-2xl font-bold mb-4">Search Results</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Listing 1 -->
+            <div class="border rounded overflow-hidden">
+                <img src="https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg" alt="Listing" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="font-bold">Beautiful Apartment in Paris</h3>
+                    <p class="text-gray-600">$120/night</p>
+                    <button class="bg-red-500 text-white px-4 py-2 rounded mt-2">View Details</button>
+                </div>
+            </div>
+            <!-- Listing 2 -->
+            <div class="border rounded overflow-hidden">
+                <img src="https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg" alt="Listing" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="font-bold">Cozy Studio in Bali</h3>
+                    <p class="text-gray-600">$80/night</p>
+                    <button class="bg-red-500 text-white px-4 py-2 rounded mt-2">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="p-4 bg-gray-100">
+        <p>&copy; 2023 Places. All rights reserved.</p>
+    </footer>
+</body>
+</html>
