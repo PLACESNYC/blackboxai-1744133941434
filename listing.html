@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listing Details | Places</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    <header class="flex justify-between items-center p-4 bg-white shadow">
+        <div class="text-2xl font-bold">Airbnb Clone</div>
+        <div class="flex space-x-4">
+            <button class="bg-red-500 text-white px-4 py-2 rounded">Login</button>
+            <button class="bg-gray-200 px-4 py-2 rounded">Sign Up</button>
+        </div>
+    </header>
+
+    <!-- Listing Details -->
+    <section class="p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Images -->
+            <div>
+                <img src="https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg" alt="Listing" class="w-full h-96 object-cover rounded">
+                <div class="grid grid-cols-4 gap-2 mt-2">
+                    <img src="https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg" alt="Thumbnail" class="h-20 object-cover rounded">
+                    <img src="https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg" alt="Thumbnail" class="h-20 object-cover rounded">
+                    <img src="https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg" alt="Thumbnail" class="h-20 object-cover rounded">
+                    <img src="https://images.pexels.com/photos/3761509/pexels-photo-3761509.jpeg" alt="Thumbnail" class="h-20 object-cover rounded">
+                </div>
+            </div>
+
+            <!-- Details -->
+            <div>
+                <h1 class="text-3xl font-bold">Beautiful Apartment in Paris</h1>
+                <p class="text-gray-600 mt-2">Entire apartment · 2 guests · 1 bedroom · 1 bath</p>
+                <div class="flex items-center mt-4">
+                    <div class="bg-gray-200 p-2 rounded-full">
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <span class="ml-2">4.8 (120 reviews)</span>
+                </div>
+
+                <div class="mt-6 p-4 border rounded">
+                    <h2 class="text-xl font-bold">$120 <span class="text-sm font-normal">night</span></h2>
+                    <div class="grid grid-cols-2 gap-2 mt-4">
+                        <div class="border p-2 rounded">
+                            <label class="text-sm">Check-in</label>
+                            <input type="date" class="w-full">
+                        </div>
+                        <div class="border p-2 rounded">
+                            <label class="text-sm">Check-out</label>
+                            <input type="date" class="w-full">
+                        </div>
+                    </div>
+                    <button class="bg-red-500 text-white w-full py-2 rounded mt-4">Reserve</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Description -->
+        <div class="mt-8">
+            <h2 class="text-2xl font-bold">About this place</h2>
+            <p class="mt-2">This beautiful apartment is located in the heart of Paris, just minutes away from the Eiffel Tower. It features modern amenities and a cozy atmosphere perfect for your stay.</p>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="p-4 bg-gray-100">
+                <p>&copy; 2023 Places. All rights reserved.</p>
+    </footer>
+</body>
+</html>
