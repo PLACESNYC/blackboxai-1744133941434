@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places - Find Your Perfect Stay</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .places-primary {
+            color: #3B82F6; /* Tailwind blue-500 */
+        }
+        .bg-places-primary {
+            background-color: #3B82F6;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <i class="fas fa-map-marker-alt text-3xl places-primary mr-2"></i>
+                <span class="text-xl font-bold places-primary">Places</span>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="hidden md:flex items-center border border-gray-300 rounded-full py-2 px-4 shadow-sm hover:shadow-md transition duration-200">
+                <div class="border-r border-gray-300 pr-4">
+                    <span class="font-medium">Anywhere</span>
+                </div>
+                <div class="border-r border-gray-300 px-4">
+                    <span class="font-medium">Any week</span>
+                </div>
+                <div class="pl-4 flex items-center">
+                    <span class="text-gray-500 mr-2">Add guests</span>
+                    <div class="bg-places-primary p-2 rounded-full text-white">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- User Menu -->
+            <div class="flex items-center space-x-4">
+                <button class="hidden md:block font-medium hover:bg-gray-100 px-4 py-2 rounded-full">
+                    List Your Place
+                </button>
+                <div class="flex items-center space-x-2 border border-gray-300 p-2 rounded-full hover:shadow-md cursor-pointer">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-user-circle text-gray-500 text-xl"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Rest of the content would go here -->
+    <!-- ... -->
+
+    <script src="script.js"></script>
+</body>
+</html>
