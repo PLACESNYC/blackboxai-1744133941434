@@ -7,7 +7,7 @@ Built by https://www.blackbox.ai
 # Places - Find Your Perfect Stay
 
 ## Project Overview
-Places is a web application designed to help users find and book accommodations similar to Airbnb. Featuring a user-friendly interface, it allows users to search for places, view listings, and check details of accommodations, including amenities, pricing, and more. Built with modern web technologies, Places aims to provide a seamless and intuitive user experience.
+Places is a web application designed to help users find and book accommodations. Featuring a user-friendly interface, it allows users to search for places, view listings, and check details of accommodations, including amenities, pricing, and more. Built with modern web technologies, Places aims to provide a seamless and intuitive user experience.
 
 ## Installation
 To set up the project locally, follow these steps:
