@@ -1,4 +1,4 @@
-// Main JavaScript for Airbnb Clone
+// Main JavaScript for Places
 
 // DOM Ready
 document.addEventListener('DOMContentLoaded', function() {
